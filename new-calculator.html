@@ -10,33 +10,34 @@
 </head>
 <body>
     <section>
-        <div class="calculatorLayout">
-          <div class="output">
-            <div data-previous-entry class="previous-entry"></div>
-            <div data-current-entry class="current-entry"></div>
+        <div class="calculator-layout">
+        <h2 data-previous-entry class="calculator-layout__subscreen"></h2>
+        <h1 data-current-entry class="calculator-layout__screen"></h1>
           </div> 
           <div class="all-buttons">
-            <button data-all-clear class="button-allClear" id="ac" >A/C</button>
-            <button data-delete class="button-delete" >DEL</button>
-            <button data-number class="button-number-pi"     >π</button>
-            <button data-symbol class="button-symbol" >÷</button>
-            <button data-number class="button-number" >7</button>
-            <button data-number class="button-number" >8</button>
-            <button data-number class="button-number">9</button>
-            <button data-symbol class="button-symbol"  >x</button>
-            <button data-number class="button-number"  >4</button>
-            <button data-number class="button-number"  >5</button>
-            <button data-number class="button-number" >6</button>
-            <button data-symbol class="button-symbol"  >-</button>
-            <button data-number class="button-number" >1</button>
-            <button data-number class="button-number" >2</button>
-            <button data-number class="button-number" >3</button>
-            <button data-symbol class="button-symbol"  >+</button>
-            <button data-number class="button-number dot"  >.</button>
-            <button data-number class="button-number-zero"  >0</button>
-            <button data-equals class="button-equals" >=</button>
+            <button type="button" class="button number" id="button__all-Clear"  >A/C</button>
+            <button type="button" class="button delete" id="buttons__delete" >DEL</button>
+            <button type="button" class="button number pi" id="buttons__pi">π</button>
+            <button type="button" class="button symbol" id="buttons__divide"  >÷</button>
+            <button type="button" class="button number"  id="buttons__7" >7</button>
+            <button type="button" class="button number"  id="buttons__8" >8</button>
+            <button type="button" class="button number" id="buttons__9"  >9</button>
+            <button type="button" class="button symbol"  id="buttons__multiply" >x</button>
+            <button type="button" class="button number"  id="buttons__4" >4</button>
+            <button type="button" class="button number"  id="buttons__5" >5</button>
+            <button type="button" class="button number" id="buttons__6"  >6</button>
+            <button type="button" class="button symbol" id="buttons__minus"  >-</button>
+            <button type="button" class="button number"  id="buttons__1" >1</button>
+            <button type="button" class="button number" id="buttons__2"  >2</button>
+            <button type="button" class="button number" id="buttons__3"  >3</button>
+            <button type="button" class="button symbol" id="buttons__add"  >+</button>
+            <button type="button" class="button number dot" id="buttons__dot" >.</button>
+            <button type="button" class="button number-zero" id="buttons__0" >0</button>
+            <button type="button" class="button equals" id="buttons__equal" >=</button>
           </div>
         </div>
     </section>
+    <script src="./calculator.js"></script>
   </body>
+
   </html>
