@@ -1,9 +1,9 @@
 * {
     font-family: "Space Mono", monospace;
-    color: #EAF2EF;
     margin-block-end: 0;
     margin-block-start: 0;
     font-size: 30px;
+    color: black;
     margin: 0;
     padding: 0;
   }
@@ -40,13 +40,13 @@
     justify-content: space-evenly;
     align-items: center;
   }
-.screen {
+.calculator__display {
     overflow: hidden;
     width: 83%;
     height: 25%;
+    color: yellow;
     border-radius: 2%;
-    background-color: #e1ddddd4;
-    color: #303030;
+    background-color: white;
     border: 1.2px solid black;
     box-shadow: 0 0 5px 1px white;
     text-align: end;
@@ -69,6 +69,7 @@
   }
   .all-buttons button {
     border: 1px solid #7b7778;
+    background-color: #1d1d1d;
     border-radius: 5%;
     display: flex;
     justify-content: center;
@@ -77,15 +78,15 @@
     color: #EAF2EF;
     
   }
-  .all-buttons .all-clear, .equals, .delete {
+  .all-clear, .equals, .delete {
     background-color: #1d1d1d;
     border: 1px solid #7b7778;
   }
-  .all-buttons .number {
+  .all-buttons .calculator__number {
     background-color: #1d1d1d;
     border: 1px solid #7b7778;
   }
- .all-buttons .symbol{
+ .all-buttons .calculator__symbol{
     background-color: #1d1d1d;
     border: 1px solid #7b7778;
   }

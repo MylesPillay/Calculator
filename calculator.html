@@ -8,40 +8,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <script src="calculator.js" async defer></script>
-  </head>
+      rel="stylesheet"/>
+    <title>Myles's Calculator</title>
+    <script src="script.js"></script>
+   </head>
 <body>
   <div id="background" class="background">
   </div>
-  <main>
-        <div class="screen" id="screen-box"></div>
-          </div> 
-          <div class="all-buttons">
-            <button class="button all-clear" id="all-clear"  >A/C</button>
-            <button class="button delete" id="delete" >DEL</button>
-            <button class="number pi" id="number" value="π">π</button>
-            <button class="symbol" id="symbol" value="/" >÷</button>
-            <button class="number"  id="number" value="7">7</button>
-            <button class="button number"  id="number" value="8" >8</button>
-            <button class="button number" id="number" value="9" >9</button>
-            <button class="button symbol"  id="symbol" value="*">x</button>
-            <button class="button number"  id="number" value="4" >4</button>
-            <button class="button number"  id="number" value="5" >5</button>
-            <button class="button number" id="number" value="6" >6</button>
-            <button class="button symbol" id="symbol" value="-" >-</button>
-            <button class="button number"  id="number" value="1">1</button>
-            <button class="button number" id="number" value="2" >2</button>
-            <button class="button number" id="number" value="3"  >3</button>
-            <button class="button symbol" id="symbol" value="+" >+</button>
-            <button class="button number dot" id="dot" value="." >.</button>
-            <button class="button number" id="number" value="0">0</button>
-            <button class="equals" id="equals" value="=" >=</button>
-          </div>
-        </div>
-      </main>
-    <script src="./calculator.js"></script>
-  </body>
-
-  </html>
+  <main class="calculator">
+    <div class="calculator__display">0</div>
+    <div class="all-buttons">
+      <button data-type="all-clear" -all-clear class="button all-clear" id="keys-ac"  >A/C</button>
+      <button data-type="delete" class="button delete" id="keys__del" >DEL</button>
+      <button id="keys__polarity" class="button symbol"><strong>-+</strong></button>
+      <button data-type="symbol" class="button calculator__symbol" id="keys__divide" value="/" >÷</button>
+      <button data-type="number" class="button .calculator__number"  id="keys__7" value="7">7</button>
+      <button data-type="number" class="button .calculator__number"  id="keys__8" value="8" >8</button>
+      <button data-type="number" class="button .calculator__number" id="keys__9" value="9" >9</button>
+      <button data-type="symbol" class="button calculator__symbol"  id="keys__multiply" value="*">x</button>
+      <button data-type="number" class="button .calculator__number"  id="keys__4" value="4" >4</button>
+      <button data-type="number" class="button .calculator__number"  id="keys__5" value="5" >5</button>
+      <button data-type="number" class="button .calculator__number" id="keys__6" value="6" >6</button>
+      <button data-type="symbol" class="button calculator__symbol" id="keys__minus" value="-" >-</button>
+      <button data-type="number" class="button one .calculator__number"  id="keys__1" value="1">1</button>
+      <button data-type="number" class="button .calculator__number" id="keys__2" value="2" >2</button>
+      <button data-type="number" class="button .calculator__number" id="keys__3" value="3"  >3</button>
+      <button data-type="symbol" class="button calculator__symbol" id="keys__plus" value="+" >+</button>
+      <button data-type="decimal" class="button .calculator__number decimal" id="keys__dot" value="." >.</button>
+      <button data-type="number" class="button .calculator__number" id="keys__0" value="0">0</button>
+      <button data-type="equal" class="button equals" id="keys__equal" value="=" >=</button>
+    </div>
+  </main>
+</body>
+</html>
