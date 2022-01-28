@@ -1,4 +1,4 @@
-# Javascript
+# Javascript Calculator
 
 This project was tasked as part of the _Nology coding course. The aim was to create a fully functioning calculator that relied purely javascript to complete calculations. I needed to apply the knowledge learnt in javascript the previous week, as well or direct a lot of self learning in order to complete the project. In the brief we were told to avoid using the eval( ) method and encouraged to find our own solutions to carry out the operations. 
 
