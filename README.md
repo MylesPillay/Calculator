@@ -6,4 +6,4 @@ This project was tasked as part of the _Nology coding course. The aim was to cre
 
 Using pseudocode I started breaking down each individual property the calculator required, beginning with making numbers appear on the display screen when the corresponding number was clicked, then moving on to formatting the equation process. This was my first project in Javascript and I learnt a lot about working with HTML, CSS and Javascript in the process. 
 
-You can give it go yourself by following this link! https://mylespillay.github.io/Calculator/
+You can give it go yourself by following this link! <a href="https://mylespillay.github.io/Calculator/" title="" style="color:#1a0dab;font-size:14px;" >JS Calculator</a>
