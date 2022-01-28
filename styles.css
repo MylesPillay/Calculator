@@ -29,7 +29,7 @@ body {
   margin: 10rem;
 }
 .header {
-  padding: 100px;
+padding-top: 10%;
 }
 
 .calculator__container {
@@ -41,7 +41,6 @@ body {
 .calculator {
   padding: 1.3rem;
   margin: auto;
-  margin-top: 4rem;
   border-radius: 4%;
   border: 2.2px solid #dcdcdc;
   height: 500px;
