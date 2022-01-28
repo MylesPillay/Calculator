@@ -2,42 +2,59 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
-      rel="stylesheet"/>
-    <title>Myles's Calculator</title>
-    <script src="script.js"></script>
-   </head>
-<body>
-  <div id="background" class="background">
-  </div>
-  <main class="calculator">
-    <div class="calculator__display">0</div>
-    <div class="all-buttons">
-      <button data-type="all-clear" -all-clear class="button all-clear" id="keys-ac"  >A/C</button>
-      <button data-type="delete" class="button delete" id="keys__del" >DEL</button>
-      <button id="keys__polarity" class="button symbol"><strong>-+</strong></button>
-      <button data-type="symbol" class="button calculator__symbol" id="keys__divide" value="/" >÷</button>
-      <button data-type="number" class="button .calculator__number"  id="keys__7" value="7">7</button>
-      <button data-type="number" class="button .calculator__number"  id="keys__8" value="8" >8</button>
-      <button data-type="number" class="button .calculator__number" id="keys__9" value="9" >9</button>
-      <button data-type="symbol" class="button calculator__symbol"  id="keys__multiply" value="*">x</button>
-      <button data-type="number" class="button .calculator__number"  id="keys__4" value="4" >4</button>
-      <button data-type="number" class="button .calculator__number"  id="keys__5" value="5" >5</button>
-      <button data-type="number" class="button .calculator__number" id="keys__6" value="6" >6</button>
-      <button data-type="symbol" class="button calculator__symbol" id="keys__minus" value="-" >-</button>
-      <button data-type="number" class="button one .calculator__number"  id="keys__1" value="1">1</button>
-      <button data-type="number" class="button .calculator__number" id="keys__2" value="2" >2</button>
-      <button data-type="number" class="button .calculator__number" id="keys__3" value="3"  >3</button>
-      <button data-type="symbol" class="button calculator__symbol" id="keys__plus" value="+" >+</button>
-      <button data-type="decimal" class="button .calculator__number decimal" id="keys__dot" value="." >.</button>
-      <button data-type="number" class="button .calculator__number" id="keys__0" value="0">0</button>
-      <button data-type="equal" class="button equals" id="keys__equal" value="=" >=</button>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JavaScript Calculator</title>
+  </head>
+  <body>
+    <div id="background" class="background">
+
+      <div class="calculator">
+        <div class="calculator__screen">
+          <div class="calculator__screen__output-previous" ></div>
+          <div class="calculator__screen__output-current"></div>
+        </div>
+
+        <div class="calculator__buttons">
+          </button>
+          <button type="button" class="clear button" id="clear">AC</button>
+          <button type="button" class="delete button" id="delete">DEL</button>
+          <button type="button" class="operator button" id="divide" value="/">
+            &#247
+          </button>
+
+          <button type="button" class="number button" id="seven" value="7">7</button>
+          <button type="button" class="number button" id="eight" value="8">8</button>
+          <button type="button" class="number button" id="nine" value="9">9</button>
+          <button type="button" class="operator button" id="multiply" value="x">&#215
+          </button>
+
+          <button type="button" class="number button" id="four" value="4">4</button>
+          <button type="button" class="number button" id="five" value="5">5</button>
+          <button type="button" class="number button" id="six" value="6">6</button>
+          <button type="button" class="operator button" id="minus" value="-">&#8722</button>
+
+          <button type="button" class="number button" id="one" value="1">1</button>
+          <button type="button" class="number button" id="two" value="2">2</button>
+          <button type="button" class="number button" id="three" value="3">3</button>
+          <button type="button" class="operator button" id="plus" value="+">&#43</button>
+          </button>
+
+          <button type="button" class="number button" id="zero" value="0">0</button>
+          <button type="button" class="number button decimal" id="decimal" value=".">.</button>
+          <button type="button" class="equals button" id="equals">
+            =</button>
+        </div>
     </div>
-  </main>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
